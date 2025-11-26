@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Focus Guardian
+Comment=집중력 향상 데스크톱 애플리케이션
+Exec=/home/junhyung/Documents/focus-guardian/run.sh
+Icon=/home/junhyung/Documents/focus-guardian/icon.svg
+Terminal=false
+Type=Application
+Categories=Utility;Productivity;
+StartupNotify=true

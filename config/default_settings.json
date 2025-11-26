@@ -1,0 +1,43 @@
+{
+  "focus": {
+    "default_duration": 45,
+    "break_interval": 15,
+    "pomodoro_mode": false,
+    "strict_mode": false
+  },
+  "notification": {
+    "enabled": true,
+    "position": "top-right",
+    "duration": 5,
+    "sound": true,
+    "messages": [
+      "{n}분만 더 집중해볼까요? 🎯",
+      "거의 다 왔어요! {n}분만 더 화이팅! 💪",
+      "지금 전환하시겠어요? 목표까지 {n}분 남았습니다",
+      "집중 중입니다. 정말 창을 전환하시겠습니까?"
+    ]
+  },
+  "categories": [
+    {
+      "id": "coding",
+      "name": "코딩",
+      "type": "work",
+      "apps": ["code", "Code", "jetbrains-idea", "pycharm", "vim", "nvim", "emacs"],
+      "title_patterns": ["Visual Studio Code", "IntelliJ", "PyCharm"]
+    },
+    {
+      "id": "browser_work",
+      "name": "브라우저 (작업)",
+      "type": "work",
+      "apps": ["firefox", "chrome", "chromium"],
+      "title_patterns": ["GitHub", "Stack Overflow", "Documentation", "문서"]
+    },
+    {
+      "id": "entertainment",
+      "name": "엔터테인먼트",
+      "type": "entertainment",
+      "apps": ["discord", "slack", "telegram"],
+      "title_patterns": ["YouTube", "Netflix", "Twitch", "Twitter", "Facebook", "Instagram"]
+    }
+  ]
+}
